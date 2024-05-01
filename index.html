@@ -22,7 +22,7 @@
 
     <img class="cursor-pointer py-3 h-24" src="./public/img/logo.png" alt="" />
     <div class="flex">
-      <nav class="flex gap-8">
+      <nav class=" gap-8 hidden md:flex">
         <ul class="flex items-center text-2xl text-regal-blue font-bold font-albert">
           <li class="border-r-[1px] border-regal-blue px-7 py-2 cursor-pointer">
             Our Story
@@ -36,7 +36,7 @@
           <li class="px-7 py-2 cursor-pointer">Parent Portal</li>
         </ul>
       </nav>
-      <div class="bg-regal-blue w-20 flex items-center justify-center">
+      <div id="menuhover" class="bg-regal-blue w-20 flex items-center justify-center">
         <img class="cursor-pointer" src="./public/img/ham-burger.svg" alt="ham burger">
       </div>
     </div>
@@ -45,21 +45,24 @@
 
   <div class="swiper mySwiper w-full h-full">
     <div class="swiper-wrapper ">
-      <div class="swiper-slide text-center text-base bg-white flex justify-center items-center "><img class="h-full w-full" src="./public/img/sliders/Property 1=Default.png" alt=""></div>
-      <div class="swiper-slide text-center text-base bg-white flex justify-center items-center"><img class="h-full w-full" src="./public/img/sliders/Property 1=Variant2.png" alt=""></div>
-      <div class="swiper-slide text-center text-base bg-white flex justify-center items-center"><img class="h-full w-full" src="./public/img/sliders/Property 1=Variant3.png" alt=""></div>
+      <div class="swiper-slide text-center text-base bg-white flex justify-center items-center "><img
+          class="h-full w-full" src="./public/img/sliders/Property 1=Default.png" alt=""></div>
+      <div class="swiper-slide text-center text-base bg-white flex justify-center items-center"><img
+          class="h-full w-full" src="./public/img/sliders/Property 1=Variant2.png" alt=""></div>
+      <div class="swiper-slide text-center text-base bg-white flex justify-center items-center"><img
+          class="h-full w-full" src="./public/img/sliders/Property 1=Variant3.png" alt=""></div>
     </div>
     <div class="swiper-pagination"></div>
   </div>
 
-  <div class="absolute z-40 top-20 right-0 h-32 w-40 bg-black">
+  <div id="menuopen" class="absolute z-40 top-20 right-0 h-32 w-40 bg-black hidden">
     <h1 class=" text-cyan-100">hello</h1>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./assets/js/script.js"></script>
 
-  
+
 </body>
 
 </html>
