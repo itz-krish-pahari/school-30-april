@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+let swiper = new Swiper(".mySwiper", {
   pagination: {
     el: ".swiper-pagination",
     dynamicBullets: true,
